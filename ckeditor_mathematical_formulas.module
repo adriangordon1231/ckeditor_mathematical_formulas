@@ -16,7 +16,7 @@ function ckeditor_mathematical_formulas_help($route_name, RouteMatchInterface $r
     case 'help.page.ckeditor_mathematical_formulas':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('CKeditor adon for the the Mathematical Formulas plugin') . '</p>';
+      $output .= '<p>' . t('CKeditor add-on for the the Mathematical Formulas plugin') . '</p>';
       return $output;
 
     default:
