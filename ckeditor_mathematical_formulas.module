@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ckeditor_mathematical_formulas.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ckeditor_mathematical_formulas_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ckeditor_mathematical_formulas module.
+    case 'help.page.ckeditor_mathematical_formulas':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('CKeditor adon for the the Mathematical Formulas plugin') . '</p>';
+      return $output;
+
+    default:
+  }
+}

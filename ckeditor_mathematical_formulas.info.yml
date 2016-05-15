@@ -1,0 +1,7 @@
+name: CKEditor Mathematical Formulas
+type: module
+description: CKeditor adon for the the Mathematical Formulas plugin
+core: 8.x
+package: CKEditor
+dependencies:
+  - ckeditor
